@@ -1,4 +1,4 @@
-Phase,T (°C),t_start,t_10%,t_90%,y_max
+Phase,T (Â°C),t_start,t_10%,t_90%,y_max
 Ferrite,470,2.1,4.3,9.4,0.4
 Ferrite,480,1.9,3.7,7.9,0.4
 Ferrite,490,1.7,3.2,6.7,0.4
