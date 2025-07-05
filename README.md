@@ -5,8 +5,8 @@ This repository implements isothermal phase-transformation kinetics modeling usi
 - `docs/code_explanation.md`: Step-by-step explanation of each part of the code
 - `src/jmak_model.py`: Main Python script
 - `notebooks/analysis.ipynb`: Jupyter notebook combining code, results, and figures
-- `data/TTT_data_Steel.csv` – raw input data
-- `data/TTT_synthetic.xlsx` – generated synthetic curves & parameters
+- `data/TTT_data_Steel.csv`: raw input data
+- `data/TTT_synthetic.xlsx`: generated synthetic curves & parameters
 
 ## Usage
 1. Clone the repository
