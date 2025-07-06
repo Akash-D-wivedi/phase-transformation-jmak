@@ -26,7 +26,7 @@ A classical model for isothermal phase-transformation kinetics in steels. It des
 
 ### JMAK Fit with 95 % Confidence Bands (Bainite)
 
-![JMAK Fit with 95 % Confidence Bands (Bainite)](figures/JMAK%20Fit%20with%2095%20%25%20Confidence%20Bands%20(Bainite).png)
+![Bainite](figures/JMAK%20Fit%20with%2095%20%25%20Confidence%20Bands%20(Bainite).png)
 .png)
 
 Bainite transformation curves at 10 °C, 327.6 °C, and 580 °C. Dots are the 0 %, 10 % and 90 % anchor points, lines are the fitted JMAK models, and gray bands show ±1.96σ uncertainty from the GP on ln k(T).
@@ -34,14 +34,14 @@ Bainite transformation curves at 10 °C, 327.6 °C, and 580 °C. Dots are the 0 
 
 ### JMAK Fit with 95 % Confidence Bands (Ferrite)
 
-![JMAK Fit with 95 % Confidence Bands (Ferrite)](figures/JMAK%20Fit%20with%2095%20%25%20Confidence%20Bands%20(Ferrite).png)
+![Ferrite](figures/JMAK%20Fit%20with%2095%20%25%20Confidence%20Bands%20(Ferrite).png)
 
 Ferrite transformation at 470 °C, 630 °C, and 790 °C. Experimental data points (dots), global‐n JMAK fits (lines), and GP‐derived 95 % CI bands (shading).
 
 
 ### JMAK Fit with 95 % Confidence Bands (Pearlite)
 
-![JMAK Fit with 95 % Confidence Bands (Pearlite)](figures/JMAK%20Fit%20with%2095%20%25%20Confidence%20Bands%20(Perlite).png)
+![Pearlite](figures/JMAK%20Fit%20with%2095%20%25%20Confidence%20Bands%20(Perlite).png)
 
 Pearlite transformation at 570 °C, 671.3 °C, and 720 °C. The JMAK curves (solid) accurately track the 0–10–90 % data (markers), with uncertainty bands from the GP smoothing.
 
