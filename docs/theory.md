@@ -38,7 +38,7 @@ $$
 3. **Arrhenius analysis:** The temperature dependence of the rate constant follows:
 
    $$
-   k(T) = k_0 \, \exp\bigl[(-\frac{Q}{R\,T}\Bigr]
+   \k(T) = \k_0 \, \exp\bigl[(-\frac{Q}{R\,T}\Bigr]
    $$
 
    * $k_0$: Pre‑exponential factor.
