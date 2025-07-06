@@ -1,32 +1,29 @@
 ---
 layout: default
 title: Phase Transformation Modeling using the Johnson–Mehl–Avrami–Kolmogorov Equation
-
-[Theory Background](theory.md) |
-[Code Explanation](code_explanation.md)
-
 ---
+
 # Phase Transformation Modeling using the Johnson–Mehl–Avrami–Kolmogorov Equation
 
 ## Johnson–Mehl–Avrami–Kolmogorov (JMAK) Equation
 
-A classical model for isothermal phase-transformation kinetics in steels. It describes the transformed fraction \(f\) as a function of time \(t\) using three parameters:
+A classical model for isothermal phase-transformation kinetics in steels. It describes the transformed fraction _f_ as a function of time _t_ using three parameters:
 
-- **\(y_max)**: the maximum fraction transformed at long times  
-- **\(k\)**: a rate constant that depends on temperature  
-- **\(n\)**: the Avrami exponent, which captures how nucleation and growth proceed  
+- **y_max**: the maximum fraction transformed at long times  
+- **k**: a rate constant that depends on temperature  
+- **n**: the Avrami exponent, which captures how nucleation and growth proceed  
 
-> “The JMAK equation predicts that the fraction transformed starts at zero and asymptotically approaches a maximum value \(y_max), following an S-shaped curve whose steepness is governed by \(k\) and whose curvature is governed by \(n\).”
+> “The JMAK equation predicts that the fraction transformed starts at zero and asymptotically approaches a maximum value _y_max_, following an S-shaped curve whose steepness is governed by _k_ and whose curvature is governed by _n_.”
 
 ---
 
 ## Contents
-- `docs/theory.md`: Two-page theoretical background on the JMAK model and its application to ferrite, pearlite, and bainite transformations
-- `docs/code_explanation.md`: Step-by-step explanation of each part of the code
-- `src/jmak_model.py`: Main Python script
-- `notebooks/analysis.ipynb`: Jupyter notebook combining code, results, and figures
-- `data/TTT_data_Steel.csv`: raw input data
-- `data/TTT_synthetic.xlsx`: generated synthetic curves & parameters
+
+- [Theory Background](theory.md) – two-page theoretical write-up  
+- [Code Explanation](code_explanation.md) – step-by-step walkthrough  
+- [Notebook](../notebooks/analysis.ipynb) – interactive Colab/Jupyter version  
+- [Python Script](../src/jmak_model.py) – standalone runner  
+- [Data](../data/TTT_data_Steel.csv) & [Synthetic Results](../data/TTT_synthetic.xlsx)
 
 ---
 
