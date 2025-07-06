@@ -24,7 +24,7 @@ A classical model for isothermal phase-transformation kinetics in steels. It des
 
 ## Key Results & Figures
 
-### JMAK Fit with 95 % Confidence Bands (Bainite)
+### Bainite
 
 ![Bainite](figures/JMAK%20Fit%20with%2095%20%25%20Confidence%20Bands%20(Bainite).png)
 .png)
@@ -32,14 +32,14 @@ A classical model for isothermal phase-transformation kinetics in steels. It des
 Bainite transformation curves at 10 °C, 327.6 °C, and 580 °C. Dots are the 0 %, 10 % and 90 % anchor points, lines are the fitted JMAK models, and gray bands show ±1.96σ uncertainty from the GP on ln k(T).
 
 
-### JMAK Fit with 95 % Confidence Bands (Ferrite)
+### Ferrite
 
 ![Ferrite](figures/JMAK%20Fit%20with%2095%20%25%20Confidence%20Bands%20(Ferrite).png)
 
 Ferrite transformation at 470 °C, 630 °C, and 790 °C. Experimental data points (dots), global‐n JMAK fits (lines), and GP‐derived 95 % CI bands (shading).
 
 
-### JMAK Fit with 95 % Confidence Bands (Pearlite)
+### Perlite
 
 ![Pearlite](figures/JMAK%20Fit%20with%2095%20%25%20Confidence%20Bands%20(Perlite).png)
 
