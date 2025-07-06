@@ -8,7 +8,7 @@ A classical model for isothermal phase-transformation kinetics in steels. It des
 - **\(k\)**: a rate constant that depends on temperature  
 - **\(n\)**: the Avrami exponent, which captures how nucleation and growth proceed  
 
-> “The JMAK equation predicts that the fraction transformed starts at zero and asymptotically approaches a maximum value \(y_\mathrm{max}\), following an S-shaped curve whose steepness is governed by \(k\) and whose curvature is governed by \(n\).”
+> “The JMAK equation predicts that the fraction transformed starts at zero and asymptotically approaches a maximum value \(y_\{max}\), following an S-shaped curve whose steepness is governed by \(k\) and whose curvature is governed by \(n\).”
 
 ---
 
