@@ -4,7 +4,7 @@
 
 A classical model for isothermal phase-transformation kinetics in steels. It describes the transformed fraction \(f\) as a function of time \(t\) using three parameters:
 
-- **\(y_\mathrm{max}\)**: the maximum fraction transformed at long times  
+- **\(y_\{max}\)**: the maximum fraction transformed at long times  
 - **\(k\)**: a rate constant that depends on temperature  
 - **\(n\)**: the Avrami exponent, which captures how nucleation and growth proceed  
 
