@@ -1,5 +1,16 @@
-# phase-transformation-jmak
-This repository implements isothermal phase-transformation kinetics modeling using the Johnson–Mehl–Avrami–Kolmogorov (JMAK) equation on steel TTT data.
+# Phase Transformation Modeling using the Johnson–Mehl–Avrami–Kolmogorov Equation
+
+**Johnson–Mehl–Avrami–Kolmogorov (JMAK) equation**  
+A classical model for isothermal phase‐transformation kinetics, which predicts the fraction transformed over time via  
+\[
+f(t) = y_{\max}\bigl[1 - \exp\bigl(-(k\,t)^n\bigr)\bigr],
+\]
+where
+- \(n\) (Avrami exponent) reflects nucleation and growth dimensionality, and  
+- \(k\) is the temperature‐dependent rate constant.
+
+---
+
 ## Contents
 - `docs/theory.md`: Two-page theoretical background on the JMAK model and its application to ferrite, pearlite, and bainite transformations
 - `docs/code_explanation.md`: Step-by-step explanation of each part of the code
