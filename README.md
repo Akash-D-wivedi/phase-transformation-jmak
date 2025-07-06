@@ -2,13 +2,14 @@
 
 **Johnson–Mehl–Avrami–Kolmogorov (JMAK) equation**  
 A classical model for isothermal phase‐transformation kinetics, which predicts the fraction transformed over time via  
-\[
+$$ \[
 f(t) = y_{\max}\bigl[1 - \exp\bigl(-(k\,t)^n\bigr)\bigr],
 \]
+
 where
 - \(n\) (Avrami exponent) reflects nucleation and growth dimensionality, and  
 - \(k\) is the temperature‐dependent rate constant.
-
+$$
 ---
 
 ## Contents
