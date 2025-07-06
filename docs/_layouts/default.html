@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <title>{{ page.title }}</title>
 
-  <!-- MathJax for TeX -->
+  <!-- 1) MathJax for TeX rendering -->
   <script>
     window.MathJax = {
       tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] },
@@ -13,98 +13,91 @@
   </script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
 
+  <!-- 2) Paper-style typography & layout -->
   <style>
-    /* reset body */
-    html, body {
-      margin: 0;
-      padding: 0;
+    /* overall page wrapper */
+    body {
+      font-family: Georgia, "Times New Roman", Times, serif;
+      max-width: 48em;           /* ~768px – comfortable reading width */
+      margin: 2em auto;          /* vertical breathing room + centering */
+      padding: 0 1em;            /* small side padding for narrow viewports */
+      line-height: 1.45;         /* airy lines */
+      color: #222;
       background: #fafafa;
     }
 
-    /* main “paper” column */
-    .container {
-      max-width: 32em;           /* ~512px at 16px base */
-      margin: 2em auto;          /* 2em top/bottom, centered */
-      padding: 0 1em;            /* small side padding */
-      background: white;
-      line-height: 1.5;
-      font-family:
-        Georgia, "Times New Roman", Times, serif;
-      color: #222;
-    }
-
-    /* Headings */
-    .container h1,
-    .container h2,
-    .container h3 {
-      font-family: "Palatino Linotype", Palatino, serif;
-      margin-top: 1.5em;
-      margin-bottom: 0.5em;
+    /* headings in a complementary serif */
+    h1, h2, h3, h4 {
+      font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+      margin-top: 2em;
+      margin-bottom: 0.2em;
       line-height: 1.2;
+      color: #111;
     }
-    .container h1 { font-size: 2em; }
-    .container h2 { font-size: 1.6em; }
-    .container h3 { font-size: 1.3em; }
+    h1 { font-size: 2em; }
+    h2 { font-size: 1.6em; }
+    h3 { font-size: 1.3em; }
 
+    /* horizontal rules */
     hr {
-      border: none;
-      border-top: 1px solid #ddd;
+      border: 0;
+      border-top: 1px solid #ccc;
       margin: 2em 0;
     }
 
-    /* Blockquotes */
-    .container blockquote {
-      margin: 1.5em auto;
+    /* blockquotes styled like printed margins */
+    blockquote {
+      margin: 1.5em 0;
       padding-left: 1em;
-      border-left: 3px solid #ccc;
+      border-left: 3px solid #ddd;
       color: #555;
       font-style: italic;
     }
 
-    /* Code */
-    .container code,
-    .container pre {
+    /* code blocks & inline code */
+    pre, code {
       font-family: Menlo, Consolas, "Courier New", monospace;
-      background: #f4f4f4;
+      background: #f5f5f5;
       border-radius: 4px;
     }
-    .container code {
-      padding: 0.2em 0.4em;
-    }
-    .container pre {
+    pre {
       padding: 1em;
       overflow-x: auto;
-      margin: 1em 0;
+      margin: 1.5em 0;
+    }
+    code {
+      padding: 0.2em 0.4em;
     }
 
-    /* Images */
-    .container img {
+    /* tables */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.5em 0;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 0.5em;
+      text-align: left;
+    }
+    th {
+      background: #eee;
+    }
+
+    /* images */
+    img {
       display: block;
       margin: 1.5em auto;
       max-width: 100%;
       height: auto;
     }
 
-    /* Tables */
-    .container table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 1em 0;
-    }
-    .container th,
-    .container td {
-      border: 1px solid #ccc;
-      padding: 0.5em;
-    }
-    .container th {
-      background: #f0f0f0;
-    }
+    /* links */
+    a { color: #0066cc; }
+    a:hover { text-decoration: underline; }
   </style>
 </head>
-
 <body>
-  <div class="container">
-    {{ content }}
-  </div>
+  {{ content }}
 </body>
 </html>
