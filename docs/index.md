@@ -27,7 +27,6 @@ A classical model for isothermal phase-transformation kinetics in steels. It des
 ### Bainite
 
 ![Bainite](figures/JMAK%20Fit%20with%2095%20%25%20Confidence%20Bands%20(Bainite).png)
-.png)
 
 Bainite transformation curves at 10 °C, 327.6 °C, and 580 °C. Dots are the 0 %, 10 % and 90 % anchor points, lines are the fitted JMAK models, and gray bands show ±1.96σ uncertainty from the GP on ln k(T).
 
