@@ -1,4 +1,7 @@
-# Phase Transformation Modeling using the Johnson–Mehl–Avrami–Kolmogorov Equation
+---
+layout: default
+title: Phase Transformation Modeling using the Johnson–Mehl–Avrami–Kolmogorov Equation
+---
 
 ## Johnson–Mehl–Avrami–Kolmogorov (JMAK) Equation
 
