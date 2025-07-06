@@ -19,8 +19,8 @@ A classical model for isothermal phase-transformation kinetics in steels. It des
 
 ## Contents
 
-- [Theory Background](theory.md) – two-page theoretical write-up  
-- [Code Explanation](code_explanation.md) – step-by-step walkthrough
+- [Theory Background](theory.md) : two-page theoretical write-up  
+- [Code Explanation](code_explanation.md) : step-by-step walkthrough
 
 ---
 
