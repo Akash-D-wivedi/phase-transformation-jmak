@@ -20,10 +20,7 @@ A classical model for isothermal phase-transformation kinetics in steels. It des
 ## Contents
 
 - [Theory Background](theory.md) – two-page theoretical write-up  
-- [Code Explanation](code_explanation.md) – step-by-step walkthrough  
-- [Notebook](../notebooks/analysis.ipynb) – interactive Colab/Jupyter version  
-- [Python Script](../src/jmak_model.py) – standalone runner  
-- [Data](../data/TTT_data_Steel.csv) & [Synthetic Results](../data/TTT_synthetic.xlsx)
+- [Code Explanation](code_explanation.md) – step-by-step walkthrough
 
 ---
 
