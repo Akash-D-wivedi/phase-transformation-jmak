@@ -40,7 +40,7 @@ Ferrite transformation at 470 °C, 630 °C, and 790 °C. Experimental data point
 
 ### Pearlite
 
-![JMAK Fit with 95 % Confidence Bands (Pearlite)](figures/Pearlite.png)
+![JMAK Fit with 95 % Confidence Bands (Perlite)](figures/Pearlite.png)
 
 Pearlite transformation at 570 °C, 671.3 °C, and 720 °C. The JMAK curves (solid) accurately track the 0–10–90 % data (markers), with uncertainty bands from the GP smoothing.
 
