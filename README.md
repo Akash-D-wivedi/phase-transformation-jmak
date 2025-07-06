@@ -10,9 +10,6 @@ A classical model for isothermal phase-transformation kinetics in steels. It des
 
 > “The JMAK equation predicts that the fraction transformed starts at zero and asymptotically approaches a maximum value \(y_\mathrm{max}\), following an S-shaped curve whose steepness is governed by \(k\) and whose curvature is governed by \(n\).”
 
-You can then reference it in your “Theory” or “Key Results” sections without any math rendering issues.
-
-
 ---
 
 ## Contents
