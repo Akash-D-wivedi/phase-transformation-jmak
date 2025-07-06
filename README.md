@@ -39,7 +39,7 @@ Bainite transformation curves at 10 °C, 327.6 °C, and 580 °C. Dots are the 0 
 Ferrite transformation at 470 °C, 630 °C, and 790 °C. Experimental data points (dots), global‐n JMAK fits (lines), and GP‐derived 95 % CI bands (shading).
 
 
-### Perlite
+### Pearlite
 
 ![Pearlite](figures/JMAK%20Fit%20with%2095%20%25%20Confidence%20Bands%20(Perlite).png)
 
