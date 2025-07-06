@@ -4,11 +4,11 @@
 
 A classical model for isothermal phase-transformation kinetics in steels. It describes the transformed fraction \(f\) as a function of time \(t\) using three parameters:
 
-- **\(y_\max\)**: the maximum fraction transformed at long times  
+- **\(y_max)**: the maximum fraction transformed at long times  
 - **\(k\)**: a rate constant that depends on temperature  
 - **\(n\)**: the Avrami exponent, which captures how nucleation and growth proceed  
 
-> “The JMAK equation predicts that the fraction transformed starts at zero and asymptotically approaches a maximum value \(y_\max\), following an S-shaped curve whose steepness is governed by \(k\) and whose curvature is governed by \(n\).”
+> “The JMAK equation predicts that the fraction transformed starts at zero and asymptotically approaches a maximum value \(y_max), following an S-shaped curve whose steepness is governed by \(k\) and whose curvature is governed by \(n\).”
 
 ---
 
